@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+
+.banner {
+  width: 1080px;
+  height: 150px;
+}
+
+.banner img {
+  max-width: 1080px;
+}
+
+.banner div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1080px;
+  height: 150px;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  width: 100%;
+  height: 150px;
+}
+
+.countdown h1,
+.countdown p {
+  margin: 0px;
+}
+
+.countdown h1 {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+}
+
+.countdown div {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+}
+
+.countdown p {
+  font-size: x-small;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.countdown p:nth-child(1) {
+  transform: translateX(-15px);
+}
+
+.countdown p:nth-child(2) {
+  transform: translateX(-5px);
+}
+
+.countdown p:nth-child(3) {
+  transform: translateX(3px);
+}
+
+.countdown p:nth-child(4) {
+  transform: translateX(13px);
+}
